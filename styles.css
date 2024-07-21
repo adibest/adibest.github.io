@@ -1,0 +1,26 @@
+.main {
+    width: 1280px;
+    height: 720px;
+    background: #FFF;
+    position: relative;
+}
+
+.header {
+    display: inline-flex;
+    width: 1280px;
+    padding: 30px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    position: absolute;
+}
+
+.header-text {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

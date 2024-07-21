@@ -1,0 +1,17 @@
+.main {
+	width: 100%;
+	position: relative;
+}
+.header {
+	display: inline-flex;
+	width: 90%;
+	padding: 30px 50px;
+	justify-content: center;
+	align-items: center;
+	gap: 36px;
+}
+.h-text {
+	text-transform: uppercase;
+	font-family: Ubuntu;
+	font-size: 1.2rem;
+}
