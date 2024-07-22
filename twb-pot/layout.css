@@ -22,8 +22,8 @@ a{
     display: block;
 }
 .canvas-container canvas{
-    width: 333px !important; 
-    height: 266px !important; 
+    width: 266px !important; 
+    height: 333px !important; 
     border: 3px solid green;
 }
 .tombol{
