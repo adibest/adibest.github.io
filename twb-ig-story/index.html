@@ -67,8 +67,8 @@
                                         document.getElementById("uploadFile").value = this.files[0].name;
                                     };
                                     var canvas = new fabric.Canvas('c');
-                                    canvas.setWidth(675);
-                                    canvas.setHeight(540);
+                                    canvas.setWidth(1080);
+                                    canvas.setHeight(1920);
                                     
                                     var canvasWrapper = document.getElementById('c');
                                     var canvasWrapperWidth = canvasWrapper.clientWidth;
@@ -87,8 +87,8 @@
                                     });
                                     function imageIsLoaded(e) {
                                         fabric.Image.fromURL(e.target.result,function(img){
-                                            var aspectRatio = 675/540;
-                                            var factor = 540 / img.width;
+                                            var aspectRatio = 1080/1920;
+                                            var factor = 1080 / img.width;
                                             img.set({
                                                 scaleX: factor,
                                                 scaleY: factor 
